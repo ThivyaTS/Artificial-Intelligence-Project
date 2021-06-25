@@ -75,7 +75,7 @@ There is two-phase COVID-19 face mask detector as shown in Figure 2:
 ## D.   PROJECT STRUCTURE
 
 The following directories are our structure of our project:
-- $ tree --dirsfirst --filelimit 5
+- $ tree --dirsfirst --filelimit 6
 - .
 - ├── dataset
 - │   ├── song_data.csv [1000001 entries]
@@ -86,10 +86,10 @@ The following directories are our structure of our project:
 - │   └── Main.py
 - └── trainMusicDatasetRecommendation.py
 
-- 2 directories, 15 files
+- 3 directories, 6 files
 
 
-The dataset/ directory contains the data described in the “Our music recommendation system dataset” section.
+The dataset directory contains the data described in the “Our music recommendation system dataset” section.
 
 There are two datasets in our system. 
 First, song_data.csv. Song_data.csv dataset consist of 1000001 rows and 5 columns
