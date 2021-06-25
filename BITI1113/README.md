@@ -18,7 +18,7 @@ This type of recommender system is user-specific classification downside. This c
 
 **Team Members:** 
 - Thivya Tamil Selvam            (B031910442)
-- Anbu Selvi A/P M Paramasivan   (BO31910062)
+- Anbu Selvi A/P M Paramasivan   (B031910062)
 - Noah Brynner Wee Supitang      (B031910101)
 - Radwan Mohammed Rashed Mahdi   (B031910453)
 
