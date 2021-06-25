@@ -11,6 +11,10 @@ There are two main types of recommender systems we have used in our project:
 **1) Content-based recommender**
 **2)Popularity based recommender**
 
+**Popularity based recommender**
+
+As the name suggests Popularity based recommender, it works with the trend. It basically uses the items which are in trend right now. For example, if any product which is usually bought by every new user then there are chances that it may suggest that item to the user who just signed up.
+
 **Content-based recommender**
 
 This type of recommender system is user-specific classification downside. This classifier learns the user's likes and dislikes from the options of the song.
@@ -49,7 +53,7 @@ There are 3 types of recommendation system: content-based, collaborative and pop
 I’ll then show you how to train our dataset for Popularity based Recommender System model using Popularity filtering algorithm and Content based Recommender System model using Cosine Similarity.
 
 **Popularity filtering - Popularity recommendation model**
-
+We will get a count of user_ids for each unique song as recommendation score,then sort the songs based upon recommendation score. After that we will generate a recommendation rank based upon score and get the top 10 recommendations.
 
 How do we use this matrix for a recommendation?
 We now need to calculate the similarity of one title to another. We are going to use cosine similarity.
