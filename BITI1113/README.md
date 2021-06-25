@@ -13,19 +13,12 @@ There are two main types of recommender systems we have used in our project:
 
 **Popularity based recommender**
 
-As the name suggests Popularity based recommender, it works with the trend. It basically uses the items which are in trend right now. For example, if any product which is usually bought by every new user then there are chances that it may suggest that item to the user who just signed up.
+The popularity-based recommender, as the name implies, works with the current trend. It mostly consists of items that are currently trending. For example, if a product is frequently purchased by new users, it is possible that it will propose that item to the user who has just signed up.
 
 **Content-based recommender**
 
-This type of recommender system is user-specific classification downside. This classifier learns the user's likes and dislikes from the options of the song.
+This type of recommender system is user-specific classification downside. This classifier learns the user's likes and dislikes from the options of the song. The most straightforward approach is **keyword matching**. In a few words, the thought behind is to extract purposeful keywords gift in an exceedingly song description a user likes, rummage around for the keywords in different song descriptions to estimate similarities among them, and supported that, recommend those songs to the user.
 
-The most straightforward approach is **keyword matching**.
-
-In a few words, the thought behind is to extract purposeful keywords gift in an exceedingly song description a user likes, rummage around for the keywords in different song descriptions to estimate similarities among them, and supported that, suggest those songs to the user.
-
-How is that this performed?
-
-In our project, since we have a tendency to operating with text and words, Term Frequency-Inverse Document Frequency (TF-IDF) is used for this matching method.
 
 **Team Members:** 
 - Thivya Tamil Selvam            (B031910442)
@@ -53,8 +46,13 @@ There are 3 types of recommendation system: content-based, collaborative and pop
 I’ll then show you how to train our dataset for Popularity based Recommender System model using Popularity filtering algorithm and Content based Recommender System model using Cosine Similarity.
 
 **Popularity filtering - Popularity recommendation model**
+
 We will get a count of user_ids for each unique song as recommendation score,then sort the songs based upon recommendation score. After that we will generate a recommendation rank based upon score and get the top 10 recommendations.
 
+
+How is that this performed?
+
+In our project, since we have a tendency to operating with text and words, Term Frequency-Inverse Document Frequency (TF-IDF) is used for this matching method.
 How do we use this matrix for a recommendation?
 We now need to calculate the similarity of one title to another. We are going to use cosine similarity.
 We want to calculate the cosine similarity of each item with every other item in the dataset. So we just pass the title_matrix as argument.
