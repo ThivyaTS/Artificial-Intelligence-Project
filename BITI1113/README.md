@@ -69,7 +69,7 @@ The figure below shows the analysis of the dataset that shows the listen count a
 
 ![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/tableModel2.jpg)
 
-/t/tTable 2 : Table of datasets
+Table 2 : Table of datasets
 
 ![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/histModel2.jpg)
 
