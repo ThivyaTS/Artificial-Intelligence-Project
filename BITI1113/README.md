@@ -58,16 +58,16 @@ The figure below shows the analysis of the dataset that shows the listen count a
 
 ![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/tableModel1.jpg)
 
-                        Table 1 : Table of song_datasetMaster
+Table 1 : Table of song_datasetMaster
 
 ![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/histModel1.jpg)
 
 
 The figure below shows the analysis of the dataset that shows the listen count and percentage of the listen count.
 
-![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/tableModel1.jpg)
+![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/tableModel2.jpg)
 
-                         Table 1 : Table of song_datasetMaster
+/t/tTable 1 : Table of song_datasetMaster
 
 ![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/histModel2.jpg)
 
