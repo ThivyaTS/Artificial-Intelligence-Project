@@ -52,22 +52,7 @@ We will be using Cosine Similarity to calculate a numeric quantity that denotes 
 
 cosine(x,y)=x.y⊺||x||.||y|| 
 
-In our project, since we are dealing with text and words, Term Frequency-Inverse Document Frequency (TF-IDF) is used for this matching method.
-Since we have used the TF-IDF Vectorizer, calculating the Dot Product will directly give us the Cosine Similarity Score. Therefore, we will use sklearn's linear_kernel instead of cosine_similarities since it is much faster.
-
-
-
-We’ll use this Python script to train a face mask detector and review the results.
-
-Given the trained COVID-19 face mask detector, we’ll proceed to implement two more additional Python scripts used to:
-
-- Detect COVID-19 face masks in images
-- Detect face masks in real-time video streams
-
-We’ll wrap up the post by looking at the results of applying our face mask detector.
-
-
-There is two-phase COVID-19 face mask detector as shown in Figure 2:
+We’ll use this algorithms in Python script to train our music recommendation system and review the results.
 
 ![Figure 2]()
 
@@ -81,9 +66,9 @@ The following directories are our structure of our project:
 - │   ├── song_data.csv [1000001 entries]
 - │   └── triplets_file.csv [1048576 entries]
 - ├── music_recommender
-- │   ├── popularityBased_recommender.py
+- │   ├── PopularityBased_Recommenders.py
 - │   ├── contentBased_recommender.py
-- │   └── Main.py
+- │   └── Music_Recommendation.py
 - └── trainMusicDatasetRecommendation.py
 
 - 3 directories, 6 files
