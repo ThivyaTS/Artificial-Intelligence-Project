@@ -46,7 +46,6 @@ I’ll show you how to train our dataset for Popularity based Recommender System
 We will get a count of user_ids for each unique song as recommendation score,then sort the songs based upon recommendation score. After that we will generate a recommendation rank based upon score and get the top 10 recommendations.
 
 
-
 **Cosine Similarity**
 
 We will be using Cosine Similarity to calculate a numeric quantity that denotes the similarity between song titles. Mathematically, it is defined as follows:
@@ -54,7 +53,6 @@ We will be using Cosine Similarity to calculate a numeric quantity that denotes 
 cosine(x,y)=x.y⊺||x||.||y|| 
 
 In our project, since we are dealing with text and words, Term Frequency-Inverse Document Frequency (TF-IDF) is used for this matching method.
-
 Since we have used the TF-IDF Vectorizer, calculating the Dot Product will directly give us the Cosine Similarity Score. Therefore, we will use sklearn's linear_kernel instead of cosine_similarities since it is much faster.
 
 
