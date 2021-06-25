@@ -91,7 +91,7 @@ The following directories are our structure of our project:
 - 2 directories, 15 files
 
 
-The dataset/ directory contains the data described in the “Our recommendation system dataset” section.
+The dataset/ directory contains the data described in the “Our music recommendation system dataset” section.
 
 There are two datasets song_data.csv and triplets_file.csv. song_data.csv dataset consist of 1000001 rows and 5 columns
 which are song_id, title, release, artist name and year. While the triplets_file.csv dataset contains 1048576 rows and 3 columns
