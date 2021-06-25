@@ -54,7 +54,14 @@ cosine(x,y)=x.y⊺||x||.||y||
 
 We’ll use this algorithms in Python script to train our music recommendation system and review the results.
 
+The figure below shows the analysis of the dataset that shows the listen count and year of release of the songs.
+
 ![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/histModel1.jpg)
+
+The figure below shows the analysis of the dataset that shows the listen count and percentage of the listen count.
+
+![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/histModel2.jpg)
+
 
 
 ## D.   PROJECT STRUCTURE
