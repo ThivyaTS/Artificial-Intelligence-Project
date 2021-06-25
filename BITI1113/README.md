@@ -54,7 +54,7 @@ cosine(x,y)=x.y⊺||x||.||y||
 
 We’ll use this algorithms in Python script to train our music recommendation system and review the results.
 
-![Figure 2]('https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/histModel1.jpg')
+![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/histModel1.jpg)
 
 
 ## D.   PROJECT STRUCTURE
