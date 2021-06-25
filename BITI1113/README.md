@@ -56,9 +56,18 @@ We’ll use this algorithms in Python script to train our music recommendation s
 
 The figure below shows the analysis of the dataset that shows the listen count and year of release of the songs.
 
+![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/tableModel1.jpg)
+
+                        Table 1 : Table of song_datasetMaster
+
 ![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/histModel1.jpg)
 
+
 The figure below shows the analysis of the dataset that shows the listen count and percentage of the listen count.
+
+![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/tableModel1.jpg)
+
+                         Table 1 : Table of song_datasetMaster
 
 ![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/histModel2.jpg)
 
