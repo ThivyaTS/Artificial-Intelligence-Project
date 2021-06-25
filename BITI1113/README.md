@@ -91,11 +91,11 @@ The following directories are our structure of our project:
 
 The dataset/ directory contains the data described in the “Our music recommendation system dataset” section.
 
-There are two datasets song_data.csv and triplets_file.csv. song_data.csv dataset consist of 1000001 rows and 5 columns
-which are song_id, title, release, artist name and year. While the triplets_file.csv dataset contains 1048576 rows and 3 columns
-which are user_id, song_id and listen_count. The ong_data.csv dataset is holding the main data for the system and
-the triplets_file.csv dataset contains the data that have been collected from the user and counting the time for each song being played.
-According to the counter the recommender can predict the recommendation
+There are two datasets in our system. First, song_data.csv. Song_data.csv dataset consist of 1000001 rows and 5 columns
+which are song_id, title, release, artist name and year. Second, triplets_file.csv dataset contains 1048576 rows and 3 columns
+which are user_id, song_id and listen_count. The song_data.csv dataset is holding the main data for the system and
+the triplets_file.csv dataset contains the data that have been collected from the user and counting the time for each song being played
+according to the counter data that the recommender can predict from it and give the recommendation.
 
 Explanation of the three Python scripts:
 
