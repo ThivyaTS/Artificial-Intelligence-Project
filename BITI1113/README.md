@@ -8,17 +8,13 @@ Music recommender system is one in all the foremost used machine learning algori
 
 There are two main types of recommender systems we have used in our project: 
 
-**1) Content-based recommender**
-**2)Popularity based recommender**
-
-**Popularity based recommender**
+**1)Popularity based recommender**
 
 The popularity-based recommender, as the name implies, works with the current trend. It mostly consists of items that are currently trending. For example, if a product is frequently purchased by new users, it is possible that it will propose that item to the user who has just signed up.
 
-**Content-based recommender**
+**2) Content-based recommender**
 
 This type of recommender system is user-specific classification downside. This classifier learns the user's likes and dislikes from the options of the song. The most straightforward approach is **keyword matching**. In a few words, the thought behind is to extract purposeful keywords gift in an exceedingly song description a user likes, rummage around for the keywords in different song descriptions to estimate similarities among them, and supported that, recommend those songs to the user.
-
 
 **Team Members:** 
 - Thivya Tamil Selvam            (B031910442)
