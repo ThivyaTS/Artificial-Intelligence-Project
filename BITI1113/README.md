@@ -2,7 +2,7 @@
 
 ## A. PROJECT SUMMARY
 
-**Project Title:** Music Recommendation System
+**Project Title: Music Recommendation System**
 
 Music recommender system is one in all the foremost used machine learning algorithms in recommendation systems. A recommender (or recommendation) system (or engine) could be a filtering system that aim to predict a rating or preference a user would offer to Associate in Nursing item, eg. a movie title, a product, a song, etc.
 
@@ -56,18 +56,18 @@ We’ll use this algorithms in Python script to train our music recommendation s
 
 The figure below shows the analysis of the dataset that shows the listen count and year of release of the songs.
 
-![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/histModel2.jpg)
+![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/histModel1.jpg)
 
 The figure below shows the analysis of the dataset that shows the listen count and percentage of the listen count.
 
-![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/histModel1.jpg)
+![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/histModel2.jpg)
 
 
 
 ## D.   PROJECT STRUCTURE
 
 The following directories are our structure of our project:
-- $ tree --dirsfirst --filelimit 6
+- $ two --dirsfirst --filelimit 5
 - .
 - ├── dataset
 - │   ├── song_data.csv [1000001 entries]
@@ -76,9 +76,9 @@ The following directories are our structure of our project:
 - │   ├── PopularityBased_Recommenders.py
 - │   ├── contentBased_recommender.py
 - │   └── Music_Recommendation.py
-- └── trainMusicDatasetRecommendation.py
 
-- 3 directories, 6 files
+
+- 2 directories, 5 files
 
 
 The dataset directory contains the data described in the “Our music recommendation system dataset” section.
@@ -95,12 +95,12 @@ according to the counter data that the recommender can predict from it and give 
 
 Explanation of the three Python scripts:
 
-- PopularityBased_Recommenders.py: Accepts our input dataset and make the ‎recommendation for the user based on the data popularity that the sysytem
+- popularityBased_recommender.py: Accepts our input dataset and make the ‎recommendation for the user based on the data popularity that the sysytem
 will identify that from the song_data.csv.
 
 - contentBased_recommender.py: Processes the data based on the content which the system can get from the  triplets_file.csv dataset.
 
-- Music_Recommendation.py: Manipulation of the objects and controlling of the system classes.
+- Main.py: Manipulation of the objects and controlling of the system classes.
 
 In the next sections, we will train our music recommender.
 
