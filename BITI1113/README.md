@@ -37,29 +37,27 @@ We’ll review the dataset we use in our music recommendation system.
 
 Million Songs Dataset contains of two files: triplet_file and metadata_file. The triplet_file contains user_id, song_id and listen time. The metadata_file contains song_id, title, release, year and artist_name. Million Songs Dataset is a mixture of song from various website with the rating that users gave after listening to the song.
 
-There are 3 types of recommendation system: content-based, collaborative and popularity but we have only used content-based and popularity in our project.
+There are 2 types of recommendation system used in this project: popularity & content-based.
 
-I’ll then show you how to train our dataset for Popularity based Recommender System model using Popularity filtering algorithm and Content based Recommender System model using Cosine Similarity.
+I’ll show you how to train our dataset for Popularity based Recommender System model using Popularity filtering algorithm and Content based Recommender System model using Cosine Similarity.
 
 **Popularity filtering - Popularity recommendation model**
 
 We will get a count of user_ids for each unique song as recommendation score,then sort the songs based upon recommendation score. After that we will generate a recommendation rank based upon score and get the top 10 recommendations.
 
 
-How is that this performed?
 
-In our project, since we have a tendency to operating with text and words, Term Frequency-Inverse Document Frequency (TF-IDF) is used for this matching method.
-How do we use this matrix for a recommendation?
-We now need to calculate the similarity of one title to another. We are going to use cosine similarity.
-We want to calculate the cosine similarity of each item with every other item in the dataset. So we just pass the title_matrix as argument.
+**Cosine Similarity**
+
+We will be using Cosine Similarity to calculate a numeric quantity that denotes the similarity between song titles. Mathematically, it is defined as follows:
+
+cosine(x,y)=x.y⊺||x||.||y|| 
+
+In our project, since we are dealing with text and words, Term Frequency-Inverse Document Frequency (TF-IDF) is used for this matching method.
+
+Since we have used the TF-IDF Vectorizer, calculating the Dot Product will directly give us the Cosine Similarity Score. Therefore, we will use sklearn's linear_kernel instead of cosine_similarities since it is much faster.
 
 
-
-
-
-
-
-I’ll then show you how to implement a Python script to train a face mask detector on our dataset using Keras and TensorFlow.
 
 We’ll use this Python script to train a face mask detector and review the results.
 
@@ -74,44 +72,12 @@ We’ll wrap up the post by looking at the results of applying our face mask det
 There is two-phase COVID-19 face mask detector as shown in Figure 2:
 
 ![Figure 2]()
-Figure 2: Phases and individual steps for building a COVID-19 face mask detector with computer vision and deep learning 
 
-In order to train a custom face mask detector, we need to break our project into two distinct phases, each with its own respective sub-steps (as shown by Figure 1 above):
-
-- Training: Here we’ll focus on loading our face mask detection dataset from disk, training a model (using Keras/TensorFlow) on this dataset, and then serializing the face mask detector to disk
-
-- Deployment: Once the face mask detector is trained, we can then move on to loading the mask detector, performing face detection, and then classifying each face as with_mask or without_mask
-
-We’ll review each of these phases and associated subsets in detail in the remainder of this tutorial, but in the meantime, let’s take a look at the dataset we’ll be using to train our COVID-19 face mask detector.
-
-
-Our COVID-19 face mask detection dataset as shown in Figure 3:
-
-![Figure 3]()
-
-Figure 3: A face mask detection dataset consists of “with mask” and “without mask” images. 
-
-The dataset we’ll be using here today was created by PyImageSearch reader Prajna Bhandary.
-
-This dataset consists of 1,376 images belonging to two classes:
-
-- with_mask: 690 images
-- without_mask: 686 images
-
-Our goal is to train a custom deep learning model to detect whether a person is or is not wearing a mask.
-
-How was our face mask dataset created?
-Prajna, like me, has been feeling down and depressed about the state of the world — thousands of people are dying each day, and for many of us, there is very little (if anything) we can do.
-
-To help keep her spirits up, Prajna decided to distract herself by applying computer vision and deep learning to solve a real-world problem:
-
-- Best case scenario — she could use her project to help others
-- Worst case scenario — it gave her a much needed mental escape
 
 ## D.   PROJECT STRUCTURE
 
 The following directories are our structure of our project:
-- $ tree --dirsfirst --filelimit 6
+- $ tree --dirsfirst --filelimit 5
 - .
 - ├── dataset
 - │   ├── song_data.csv [1000001 entries]
@@ -122,7 +88,7 @@ The following directories are our structure of our project:
 - │   └── Main.py
 - └── trainMusicDatasetRecommendation.py
 
-- 3 directories, 6 files
+- 2 directories, 15 files
 
 
 The dataset/ directory contains the data described in the “Our recommendation system dataset” section.
