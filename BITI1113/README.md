@@ -111,7 +111,7 @@ To help keep her spirits up, Prajna decided to distract herself by applying comp
 ## D.   PROJECT STRUCTURE
 
 The following directories are our structure of our project:
-- $ tree --dirsfirst --filelimit 5
+- $ tree --dirsfirst --filelimit 6
 - .
 - ├── dataset
 - │   ├── song_data.csv [1000001 entries]
@@ -122,7 +122,7 @@ The following directories are our structure of our project:
 - │   └── Main.py
 - └── trainMusicDatasetRecommendation.py
 
-- 2 directories, 15 files
+- 3 directories, 6 files
 
 
 The dataset/ directory contains the data described in the “Our recommendation system dataset” section.
