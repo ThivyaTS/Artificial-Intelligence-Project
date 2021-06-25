@@ -56,11 +56,11 @@ We’ll use this algorithms in Python script to train our music recommendation s
 
 The figure below shows the analysis of the dataset that shows the listen count and year of release of the songs.
 
-![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/histModel1.jpg)
+![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/histModel2.jpg)
 
 The figure below shows the analysis of the dataset that shows the listen count and percentage of the listen count.
 
-![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/histModel2.jpg)
+![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/histModel1.jpg)
 
 
 
@@ -95,12 +95,12 @@ according to the counter data that the recommender can predict from it and give 
 
 Explanation of the three Python scripts:
 
-- popularityBased_recommender.py: Accepts our input dataset and make the ‎recommendation for the user based on the data popularity that the sysytem
+- PopularityBased_Recommenders.py: Accepts our input dataset and make the ‎recommendation for the user based on the data popularity that the sysytem
 will identify that from the song_data.csv.
 
 - contentBased_recommender.py: Processes the data based on the content which the system can get from the  triplets_file.csv dataset.
 
-- Main.py: Manipulation of the objects and controlling of the system classes.
+- Music_Recommendation.py: Manipulation of the objects and controlling of the system classes.
 
 In the next sections, we will train our music recommender.
 
