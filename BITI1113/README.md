@@ -88,7 +88,7 @@ The following directories are our structure of our project:
 - │   ├── song_data.csv [1000001 entries]
 - │   └── triplets_file.csv [1048576 entries]
 - ├── images
-- │   ├── histModel1.jpg    └── tableModel1.jpg
+- │   ├── histModel1.jpg    
 - │   ├── histModel2.jpg
 - │   └── tableModel1.jpg
 - │   └── tableModel2.jpg
