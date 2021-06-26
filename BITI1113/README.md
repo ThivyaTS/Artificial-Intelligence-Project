@@ -6,7 +6,7 @@
 
 **Team Members:**
 
-![Coding](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/team%20members.JPG)
+![Coding](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/team%20members.PNG)
 <p align="center">
 Figure 1 : Team Members Of The Project
 </p>
