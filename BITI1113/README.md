@@ -60,7 +60,7 @@ We’ll use this algorithms in Python script to train our music recommendation s
 
 This table contains song, listen_count and percentage.
 <p align="center" width="100">
-   <image src =https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/tableModel1.jpg)
+   <img src = https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/tableModel1.jpg)
 </p>
 <p align="center">
 Table 1 : Table of datasets;
