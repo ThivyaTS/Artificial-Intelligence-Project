@@ -1,4 +1,3 @@
-<pre>
 # Music Recommendation System
 
 ## A. PROJECT SUMMARY
@@ -16,13 +15,13 @@ The popularity-based recommender, as the name implies, works with the current tr
 **2) Content-based recommender**
 
 This type of recommender system is user-specific classification downside. This classifier learns the user's likes and dislikes from the options of the song. The most straightforward approach is **keyword matching**. In a few words, the thought behind is to extract purposeful keywords gift in an exceedingly song description a user likes, rummage around for the keywords in different song descriptions to estimate similarities among them, and supported that, recommend those songs to the user.
-
+<pre>
 **Team Members:** 
 - Thivya Tamil Selvam            (B031910442)
 - Anbu Selvi A/P M Paramasivan   (B031910062)
 - Noah Brynner Wee Supitang      (B031910101)
 - Radwan Mohammed Rashed Mahdi   (B031910453)
-
+</pre>
 - [ ] **Objectives:**
 - The objective is to provide music recommendation systems that fit listeners profile in terms of content-based and popularity-based  with continuation of past exploration.
 
@@ -173,4 +172,3 @@ Our face mask detector is accurate, and since we used the MobileNetV2 architectu
 
 [![demo](https://i9.ytimg.com/vi/pA9An19rEVQ/mq3.jpg?sqp=CKCh54MG&rs=AOn4CLAHhKrP9UG9l5h2Y2gJpaV4DDSZUw)](https://youtu.be/pA9An19rEVQ)
 
-</pre>
