@@ -2,7 +2,10 @@
 
 ## A. PROJECT SUMMARY
 
-**Project Title: Music Recommendation System**
+**Project Title:** Music Recommendation System
+
+**Team Members:**
+
 
 Music recommender system is one in all the foremost used machine learning algorithms in recommendation systems. A recommender (or recommendation) system (or engine) could be a filtering system that aim to predict a rating or preference a user would offer to Associate in Nursing item, eg. a movie title, a product, a song, etc.
 
