@@ -79,18 +79,22 @@ Figure 2 : Histogram of the parameter listen count and year of release of the so
 ## D.   PROJECT STRUCTURE
 
 The following directories are our structure of our project:
-- $ two --dirsfirst --filelimit 5
+- $ Three --dirsfirst --filelimit 9
 - .
 - ├── dataset
 - │   ├── song_data.csv [1000001 entries]
 - │   └── triplets_file.csv [1048576 entries]
+- ├── images
+- │   ├── histModel1.jpg    
+- │   ├── histModel2.jpg
+- │   ├── tableModel1.jpg
+- │   └── tableModel2.jpg
 - ├── music_recommender
-- │   ├── PopularityBased_Recommenders.py
-- │   ├── contentBased_recommender.py
+- │   ├── PopularityBased_recommender.py
+- │   ├── ContentBased_recommender.py
 - │   └── Music_Recommendation.py
 
-
-- 2 directories, 5 files
+- 3 directories, 9 files
 
 
 The dataset directory contains the data described in the “Our music recommendation system dataset” section.
@@ -113,6 +117,8 @@ will identify that from the song_data.csv.
 - contentBased_recommender.py: Processes the data based on the content which the system can get from the  triplets_file.csv dataset.
 
 - Main.py: Manipulation of the objects and controlling of the system classes.
+
+- Inages directory is holding histogram model one and two as well table model table model one and two.
 
 In the next sections, we will train our music recommender.
 
