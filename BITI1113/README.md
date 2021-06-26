@@ -2,7 +2,15 @@
 
 ## A. PROJECT SUMMARY
 
-**Project Title: Music Recommendation System**
+**Project Title:** Music Recommendation System
+
+**Team Members:**
+
+![Coding](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/team%20members.PNG)
+<p align="center">
+Figure 1 : Members Of Music Recommendation System Project
+</p>
+
 
 Music recommender system is one in all the foremost used machine learning algorithms in recommendation systems. A recommender (or recommendation) system (or engine) could be a filtering system that aim to predict a rating or preference a user would offer to Associate in Nursing item, eg. a movie title, a product, a song, etc.
 
@@ -144,3 +152,12 @@ The project was successful in developing a model for music recommendation based 
 The one major flaw for the model is the music recommendation based on content not having a high accuracy score. This is presumed to be caused by the datasets not having suitable data to train the model for content based recommendation. Content being a very subjective category might require more consideration when choosing datasets for model training. In the future, the model should be retrained when more suitable datasets are available to help train the model.
 
 Overall despite the flaw, the model is still able to perform its intended task with not much error. Hopefully it can be used in other systems and contribute towards those systems greatly.
+
+
+## G.  PRESENTATION
+[![demo](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/presentation.PNG)]
+
+
+## H. ACKNOWLEDGEMENT
+* [MusicRecommendationSystem](https://github.com/raviprakash11/MusicRecommendationSystem)
+* [music_recommender](https://github.com/ugis22/music_recommender)
