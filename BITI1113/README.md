@@ -1,3 +1,4 @@
+<pre>
 # Music Recommendation System
 
 ## A. PROJECT SUMMARY
@@ -172,3 +173,4 @@ Our face mask detector is accurate, and since we used the MobileNetV2 architectu
 
 [![demo](https://i9.ytimg.com/vi/pA9An19rEVQ/mq3.jpg?sqp=CKCh54MG&rs=AOn4CLAHhKrP9UG9l5h2Y2gJpaV4DDSZUw)](https://youtu.be/pA9An19rEVQ)
 
+</pre>
