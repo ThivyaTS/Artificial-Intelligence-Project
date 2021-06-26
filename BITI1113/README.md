@@ -2,7 +2,7 @@
 
 ## A. PROJECT SUMMARY
 
-**Project Title: Music Recommendation System**
+**Project Title:** Music Recommendation System
 
 **Team Members:**
 
