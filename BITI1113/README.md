@@ -60,7 +60,7 @@ The figures below shows the analysis of the dataset.
 
 ![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/tableModel1.jpg)
 
-&nbsp;Table 1 : Table of datasets;
+&nbsp;&nbsp;Table 1 : Table of datasets;
 
 ![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/histModel1.jpg)
 
