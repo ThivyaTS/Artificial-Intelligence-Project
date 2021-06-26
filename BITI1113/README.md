@@ -29,15 +29,15 @@ This type of recommender system is user-specific classification downside. This c
 
 ##  B. ABSTRACT 
 
-According to Nielsen’s Music 360 2014 study, 93 % of the U.S. population listens to music, defrayal quite twenty five hours every week electronic jamming intent on their favorite tunes. Recommender systems have taken the diversion and e-commerce industries by storm. Amazon, Netflix, and Spotify square measure nice examples.
+&nbsp; &nbsp; According to Nielsen’s Music 360 2014 study, 93 % of the U.S. population listens to music, defrayal quite twenty five hours every week electronic jamming intent on their favorite tunes. Recommender systems have taken the diversion and e-commerce industries by storm. Amazon, Netflix, and Spotify square measure nice examples.
 
-In this project, we've designed, enforced and analyzed song recommendation systems exploitation varied algorithms. Music recommendation may be a terribly difficult drawback as we've to structure music during a method that we have a tendency to advocate the favourite songs to users that is rarely a precise prediction. it's dynamic and generally influenced by factors apart from users’ or songs’ listening history. We've used Million Song Dataset , a freely-available collection of audio options and data for 1,000,000 contemporary music genre tracks provided by Echo Nest, to seek out the correlations between users and songs and to find out from the previous listening history of users to provide recommendations for songs that users would like to pay attention most. We will discuss the issues we have a tendency to Janus-faced, ways we've enforced, results and analysis. We have achieved best results exploitation neural network cooperative filtering formula.
+&nbsp; &nbsp; In this project, we've designed, enforced and analyzed song recommendation systems exploitation varied algorithms. Music recommendation may be a terribly difficult drawback as we've to structure music during a method that we have a tendency to advocate the favourite songs to users that is rarely a precise prediction. it's dynamic and generally influenced by factors apart from users’ or songs’ listening history. We've used Million Song Dataset , a freely-available collection of audio options and data for 1,000,000 contemporary music genre tracks provided by Echo Nest, to seek out the correlations between users and songs and to find out from the previous listening history of users to provide recommendations for songs that users would like to pay attention most. We will discuss the issues we have a tendency to Janus-faced, ways we've enforced, results and analysis. We have achieved best results exploitation neural network cooperative filtering formula.
 
 ## C.  DATASET
 
 We’ll review the dataset we use in our music recommendation system.
 
-Million Songs Dataset contains of two files: triplet_file and metadata_file. The triplet_file contains user_id, song_id and listen time. The metadata_file contains song_id, title, release, year and artist_name. Million Songs Dataset is a mixture of song from various website with the rating that users gave after listening to the song.
+Million Songs Dataset contains of two files: triplet_file and metadata_file. The triplet_file contains user_id, song_id and listen count and it has over 2000000 data. The song_data file contains song_id, title, release, year and artist_name and it has 1000000 datas. Million Songs Dataset is a mixture of song from various website with the rating that users gave after listening to the song. In this project we work with , combining this two datasets, and we get about 2000000 datasets.
 
 There are 2 types of recommendation system used in this project: popularity & content-based.
 
@@ -59,22 +59,24 @@ We’ll use this algorithms in Python script to train our music recommendation s
 The figures below shows the analysis of the dataset. 
 
 ![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/tableModel1.jpg)
-
-&nbsp;&nbsp;Table 1 : Table of datasets;
+<p align="center">
+Table 1 : Table of datasets;
+</p>
 
 ![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/histModel1.jpg)
-
+<p align="center">
 Figure 1 : Histogram of the parameter listen count and percentage of the listen count.
-
+</p>
 
 ![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/tableModel2.jpg)
-
+<p align="center">
 Table 2 : Table of datasets
+</p>
 
 ![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/histModel2.jpg)
-
+<p align="center">
 Figure 2 : Histogram of the parameter listen count and year of release of the songs.
-
+</p>
 
 ## D.   PROJECT STRUCTURE
 
@@ -143,11 +145,3 @@ The project was successful in developing a model for music recommendation based 
 The one major flaw for the model is the music recommendation based on content not having a high accuracy score. This is presumed to be caused by the datasets not having suitable data to train the model for content based recommendation. Content being a very subjective category might require more consideration when choosing datasets for model training. In the future, the model should be retrained when more suitable datasets are available to help train the model.
 
 Overall despite the flaw, the model is still able to perform its intended task with not much error. Hopefully it can be used in other systems and contribute towards those systems greatly.
-
-
-## G.PRESENTATION
-
-
-## H. ACKNOWLEDGEMENT
-* [MusicRecommendationSystem](https://github.com/raviprakash11/MusicRecommendationSystem)
-* [music_recommender](https://github.com/ugis22/music_recommender)
