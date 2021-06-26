@@ -120,7 +120,7 @@ In the next sections, we will train our music recommender.
 
 
 
-## E TRAINING RESULT
+## E. RESULT
 
 After training the program, it now can recommend songs based on popularity and content. However, there is a great difference of succession between the two methods.
 
@@ -138,39 +138,10 @@ As shown above, the model is able to consistently recommend any user the most po
 
 From this comparison, more training will be required for recommending songs by content more than than by popularity.
 
-## F.  RESULT AND CONCLUSION
+## F. CONCLUSION
 
-Detecting COVID-19 face masks with OpenCV in real-time
+The project was successful in developing a model for music recommendation based on content or popularity. However, there is one major flaw that should be put to light.
 
-You can then launch the mask detector in real-time video streams using the following command:
-- $ python detect_mask_video.py
-- [INFO] loading face detector model...
-- INFO] loading face mask detector model...
-- [INFO] starting video stream...
+The one major flaw for the model is the music recommendation based on content not having a high accuracy score. This is presumed to be caused by the datasets not having suitable data to train the model for content based recommendation. Content being a very subjective category might require more consideration when choosing datasets for model training. In the future, the model should be retrained when more suitable datasets are available to help train the model.
 
-[![Figure5](https://i9.ytimg.com/vi/jIUN4k0gE-Q/mq1.jpg?sqp=CKCh54MG&rs=AOn4CLBi6Ge6x7CWNenhJ7pK-LKRnwJvMA)](https://youtu.be/jIUN4k0gE-Q)
-
-Figure 5: Mask detector in real-time video streams
-
-In Figure 5, you can see that our face mask detector is capable of running in real-time (and is correct in its predictions as well.
-
-
-
-## G.   PROJECT PRESENTATION 
-
-In this project, you learned how to create a COVID-19 face mask detector using OpenCV, Keras/TensorFlow, and Deep Learning.
-
-To create our face mask detector, we trained a two-class model of people wearing masks and people not wearing masks.
-
-We fine-tuned MobileNetV2 on our mask/no mask dataset and obtained a classifier that is ~99% accurate.
-
-We then took this face mask classifier and applied it to both images and real-time video streams by:
-
-- Detecting faces in images/video
-- Extracting each individual face
-- Applying our face mask classifier
-
-Our face mask detector is accurate, and since we used the MobileNetV2 architecture, it’s also computationally efficient, making it easier to deploy the model to embedded systems (Raspberry Pi, Google Coral, Jetosn, Nano, etc.).
-
-[![demo](https://i9.ytimg.com/vi/pA9An19rEVQ/mq3.jpg?sqp=CKCh54MG&rs=AOn4CLAHhKrP9UG9l5h2Y2gJpaV4DDSZUw)](https://youtu.be/pA9An19rEVQ)
-
+Overall despite the flaw, the model is still able to perform its intended task with not much error. Hopefully it can be used in other systems and contribute towards those systems greatly.
