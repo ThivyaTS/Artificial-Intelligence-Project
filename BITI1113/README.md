@@ -39,7 +39,7 @@ In this project, we've designed, enforced and analyzed song recommendation syste
 
 We’ll review the dataset we use in our music recommendation system.
 
-Million Songs Dataset contains of two files: triplet_file and metadata_file. The triplet_file contains user_id, song_id and listen count and it has over 2000000 data. The song_data file contains song_id, title, release, year and artist_name and it has 1000000 datas. Million Songs Dataset is a mixture of song from various website with the rating that users gave after listening to the song. In this project we work with , combining this two datasets, and we get about 2000000 datasets.
+Million Songs Dataset contains of two files: triplet_file and song_data file. The triplet_file contains user_id, song_id and listen count and it has over 2000000 data. The song_data file contains song_id, title, release, year and artist_name and it has 1000000 datas. Million Songs Dataset is a mixture of song from various website with the rating that users gave after listening to the song. In this project we work with , combining this two datasets, and we get about 2000000 datasets.
 
 There are 2 types of recommendation system used in this project: popularity & content-based.
 
