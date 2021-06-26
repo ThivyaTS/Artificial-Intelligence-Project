@@ -83,18 +83,23 @@ Figure 2 : Histogram of the parameter listen count and year of release of the so
 ## D.   PROJECT STRUCTURE
 
 The following directories are our structure of our project:
-- $ two --dirsfirst --filelimit 5
+- $ three --dirsfirst --filelimit 9
 - .
 - ├── dataset
 - │   ├── song_data.csv [1000001 entries]
 - │   └── triplets_file.csv [1048576 entries]
+- ├── images
+- │   ├── histModel1.jpg   
+- │   ├── histModel2.jpg
+- │   └── tableModel1.jpg
+- │   └── tableModel2.jpgs
 - ├── music_recommender
-- │   ├── PopularityBased_Recommenders.py
-- │   ├── contentBased_recommender.py
+- │   ├── PopularityBased_recommender.py
+- │   ├── ContentBased_recommender.py
 - │   └── Music_Recommendation.py
 
 
-- 2 directories, 5 files
+- 3 directories, 9 files
 
 
 The dataset directory contains the data described in the “Our music recommendation system dataset” section.
