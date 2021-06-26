@@ -58,7 +58,10 @@ We’ll use this algorithms in Python script to train our music recommendation s
 
 **The figures below show the analysis of the dataset.**
 
-![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/tableModel1.jpg)
+This table contains song, listen_count and percentage.
+<p align="center" width="100">
+   <image src =https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/tableModel1.jpg)
+</p>
 <p align="center">
 Table 1 : Table of datasets;
 </p>
@@ -81,24 +84,18 @@ Figure 2 : Histogram of the parameter listen count and year of release of the so
 ## D.   PROJECT STRUCTURE
 
 The following directories are our structure of our project:
-- $ Three --dirsfirst --filelimit 9
+- $ two --dirsfirst --filelimit 5
 - .
-
 - ├── dataset
 - │   ├── song_data.csv [1000001 entries]
 - │   └── triplets_file.csv [1048576 entries]
-- ├── images
-- │   ├── histModel1.jpg    
-- │   ├── histModel2.jpg
-- │   └── tableModel1.jpg
-- │   └── tableModel2.jpg
 - ├── music_recommender
-- │   ├── PopularityBased_recommender.py
-- │   ├── ContentBased_recommender.py
+- │   ├── PopularityBased_Recommenders.py
+- │   ├── contentBased_recommender.py
 - │   └── Music_Recommendation.py
 
 
-- 3 directories, 9 files
+- 2 directories, 5 files
 
 
 The dataset directory contains the data described in the “Our music recommendation system dataset” section.
@@ -115,12 +112,12 @@ according to the counter data that the recommender can predict from it and give 
 
 Explanation of the three Python scripts:
 
-- PopularityBased_recommender.py: Accepts our input dataset and make the ‎recommendation for the user based on the data popularity that the sysytem
+- popularityBased_recommender.py: Accepts our input dataset and make the ‎recommendation for the user based on the data popularity that the sysytem
 will identify that from the song_data.csv.
 
 - contentBased_recommender.py: Processes the data based on the content which the system can get from the  triplets_file.csv dataset.
 
-- Music_Recommendation.py: This scripts will make the recommendation.
+- Main.py: Manipulation of the objects and controlling of the system classes.
 
 In the next sections, we will train our music recommender.
 
