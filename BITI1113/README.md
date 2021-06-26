@@ -81,18 +81,24 @@ Figure 2 : Histogram of the parameter listen count and year of release of the so
 ## D.   PROJECT STRUCTURE
 
 The following directories are our structure of our project:
-- $ two --dirsfirst --filelimit 5
+- $ Three --dirsfirst --filelimit 9
 - .
+
 - ├── dataset
 - │   ├── song_data.csv [1000001 entries]
 - │   └── triplets_file.csv [1048576 entries]
+- ├── images
+- │   ├── histModel1.jpg    └── tableModel1.jpg
+- │   ├── histModel2.jpg
+- │   └── tableModel1.jpg
+- │   └── tableModel2.jpg
 - ├── music_recommender
-- │   ├── PopularityBased_Recommenders.py
-- │   ├── contentBased_recommender.py
+- │   ├── PopularityBased_recommender.py
+- │   ├── ContentBased_recommender.py
 - │   └── Music_Recommendation.py
 
 
-- 2 directories, 5 files
+- 3 directories, 9 files
 
 
 The dataset directory contains the data described in the “Our music recommendation system dataset” section.
@@ -109,12 +115,12 @@ according to the counter data that the recommender can predict from it and give 
 
 Explanation of the three Python scripts:
 
-- popularityBased_recommender.py: Accepts our input dataset and make the ‎recommendation for the user based on the data popularity that the sysytem
+- PopularityBased_recommender.py: Accepts our input dataset and make the ‎recommendation for the user based on the data popularity that the sysytem
 will identify that from the song_data.csv.
 
 - contentBased_recommender.py: Processes the data based on the content which the system can get from the  triplets_file.csv dataset.
 
-- Main.py: Manipulation of the objects and controlling of the system classes.
+- Music_Recommendation.py: This scripts will make the recommendation.
 
 In the next sections, we will train our music recommender.
 
@@ -145,10 +151,3 @@ The project was successful in developing a model for music recommendation based 
 The one major flaw for the model is the music recommendation based on content not having a high accuracy score. This is presumed to be caused by the datasets not having suitable data to train the model for content based recommendation. Content being a very subjective category might require more consideration when choosing datasets for model training. In the future, the model should be retrained when more suitable datasets are available to help train the model.
 
 Overall despite the flaw, the model is still able to perform its intended task with not much error. Hopefully it can be used in other systems and contribute towards those systems greatly.
-
-## G. PRESENTATION
-[![demo]()
-
-## H. ACKNOWLEDGEMENT
-* [MusicRecomendationSystem](https://github.com/raviprakash11/MusicRecommendationSystem)
-* [music_recommender](https://github.com/ugis22/music_recommender)
