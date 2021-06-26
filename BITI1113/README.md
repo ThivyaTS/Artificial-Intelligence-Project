@@ -116,9 +116,9 @@ will identify that from the song_data.csv.
 
 - contentBased_recommender.py: Processes the data based on the content which the system can get from the  triplets_file.csv dataset.
 
-- Main.py: Manipulation of the objects and controlling of the system classes.
+- Music_Recommendation.py: This scripts will do the recommendation.
 
-- Inages directory is holding histogram model one and two as well table model table model one and two.
+- Images directory is holding histogram model one and two as well table model table model one and two.
 
 In the next sections, we will train our music recommender.
 
