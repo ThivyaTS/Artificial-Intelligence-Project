@@ -145,3 +145,10 @@ The project was successful in developing a model for music recommendation based 
 The one major flaw for the model is the music recommendation based on content not having a high accuracy score. This is presumed to be caused by the datasets not having suitable data to train the model for content based recommendation. Content being a very subjective category might require more consideration when choosing datasets for model training. In the future, the model should be retrained when more suitable datasets are available to help train the model.
 
 Overall despite the flaw, the model is still able to perform its intended task with not much error. Hopefully it can be used in other systems and contribute towards those systems greatly.
+
+## G. PRESENTATION
+[![demo]()
+
+## H. ACKNOWLEDGEMENT
+* [MusicRecomendationSystem](https://github.com/raviprakash11/MusicRecommendationSystem)
+* [music_recommender](https://github.com/ugis22/music_recommender)
