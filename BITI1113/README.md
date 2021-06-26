@@ -6,7 +6,7 @@
 
 **Team Members:**
 
-![Coding](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/team%20members.PNG)
+![Coding](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/team%20membersV1.PNG)
 <p align="center">
 Figure 1 : Members Of Music Recommendation System Project
 </p>
