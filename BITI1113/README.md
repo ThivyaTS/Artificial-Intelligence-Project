@@ -155,7 +155,7 @@ Overall despite the flaw, the model is still able to perform its intended task w
 
 
 ## G.  PRESENTATION
-[![demo](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/presentation.PNG)]
+[![demo](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/presentation.PNG)](https://youtu.be/XPx2OlMKC5k)
 
 
 ## H. ACKNOWLEDGEMENT
