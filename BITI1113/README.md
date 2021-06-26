@@ -63,21 +63,21 @@ We’ll use this algorithms in Python script to train our music recommendation s
 This table contains song, listen_count and percentage.
 
 ![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/tableModel1.jpg)
-
+<p align="center">
 Table 1 : Table of datasets;
-
+</p>
 ![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/histModel1.jpg)
-
+<p align="center">
 Figure 1 : Histogram of the parameter listen count and percentage of the listen count.
-
+</p>
 ![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/tableModel2.jpg)
 <p align="center">
 Table 2 : Table of datasets
 </p>
-
 ![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/histModel2.jpg)
-
+<p align="center">
 Figure 2 : Histogram of the parameter listen count and year of release of the songs.
+</p>
 
 ## D.   PROJECT STRUCTURE
 
@@ -116,6 +116,8 @@ will identify that from the song_data.csv.
 - contentBased_recommender.py: Processes the data based on the content which the system can get from the  triplets_file.csv dataset.
 
 - Main.py: Manipulation of the objects and controlling of the system classes.
+
+In the next sections, we will train our music recommender.
 
 
 
