@@ -59,10 +59,9 @@ We’ll use this algorithms in Python script to train our music recommendation s
 The figures below shows the analysis of the dataset. 
 
 <p align="center">
- 
 ![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/tableModel1.jpg)
- 
 </p>
+
 <p align="center">
 Table 1 : Table of datasets;
 </p>
