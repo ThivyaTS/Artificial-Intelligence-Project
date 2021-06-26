@@ -29,9 +29,9 @@ This type of recommender system is user-specific classification downside. This c
 
 ##  B. ABSTRACT 
 
-&nbsp; &nbsp; According to Nielsen’s Music 360 2014 study, 93 % of the U.S. population listens to music, defrayal quite twenty five hours every week electronic jamming intent on their favorite tunes. Recommender systems have taken the diversion and e-commerce industries by storm. Amazon, Netflix, and Spotify square measure nice examples.
+According to Nielsen’s Music 360 2014 study, 93 % of the U.S. population listens to music, defrayal quite twenty five hours every week electronic jamming intent on their favorite tunes. Recommender systems have taken the diversion and e-commerce industries by storm. Amazon, Netflix, and Spotify square measure nice examples.
 
-&nbsp; &nbsp; In this project, we've designed, enforced and analyzed song recommendation systems exploitation varied algorithms. Music recommendation may be a terribly difficult drawback as we've to structure music during a method that we have a tendency to advocate the favourite songs to users that is rarely a precise prediction. it's dynamic and generally influenced by factors apart from users’ or songs’ listening history. We've used Million Song Dataset , a freely-available collection of audio options and data for 1,000,000 contemporary music genre tracks provided by Echo Nest, to seek out the correlations between users and songs and to find out from the previous listening history of users to provide recommendations for songs that users would like to pay attention most. We will discuss the issues we have a tendency to Janus-faced, ways we've enforced, results and analysis. We have achieved best results exploitation neural network cooperative filtering formula.
+In this project, we've designed, enforced and analyzed song recommendation systems exploitation varied algorithms. Music recommendation may be a terribly difficult drawback as we've to structure music during a method that we have a tendency to advocate the favourite songs to users that is rarely a precise prediction. it's dynamic and generally influenced by factors apart from users’ or songs’ listening history. We've used Million Song Dataset , a freely-available collection of audio options and data for 1,000,000 contemporary music genre tracks provided by Echo Nest, to seek out the correlations between users and songs and to find out from the previous listening history of users to provide recommendations for songs that users would like to pay attention most. We will discuss the issues we have a tendency to Janus-faced, ways we've enforced, results and analysis. We have achieved best results exploitation neural network cooperative filtering formula.
 
 ## C.  DATASET
 
@@ -79,22 +79,18 @@ Figure 2 : Histogram of the parameter listen count and year of release of the so
 ## D.   PROJECT STRUCTURE
 
 The following directories are our structure of our project:
-- $ Three --dirsfirst --filelimit 9
+- $ two --dirsfirst --filelimit 5
 - .
 - ├── dataset
 - │   ├── song_data.csv [1000001 entries]
 - │   └── triplets_file.csv [1048576 entries]
-- ├── images
-- │   ├── histModel1.jpg    
-- │   ├── histModel2.jpg
-- │   ├── tableModel1.jpg
-- │   └── tableModel2.jpg
 - ├── music_recommender
-- │   ├── PopularityBased_recommender.py
-- │   ├── ContentBased_recommender.py
+- │   ├── PopularityBased_Recommenders.py
+- │   ├── contentBased_recommender.py
 - │   └── Music_Recommendation.py
 
-- 3 directories, 9 files
+
+- 2 directories, 5 files
 
 
 The dataset directory contains the data described in the “Our music recommendation system dataset” section.
@@ -116,9 +112,7 @@ will identify that from the song_data.csv.
 
 - contentBased_recommender.py: Processes the data based on the content which the system can get from the  triplets_file.csv dataset.
 
-- Music_Recommendation.py: This scripts will do the recommendation.
-
-- Images directory is holding histogram model one and two as well table model table model one and two.
+- Main.py: Manipulation of the objects and controlling of the system classes.
 
 In the next sections, we will train our music recommender.
 
@@ -149,3 +143,11 @@ The project was successful in developing a model for music recommendation based 
 The one major flaw for the model is the music recommendation based on content not having a high accuracy score. This is presumed to be caused by the datasets not having suitable data to train the model for content based recommendation. Content being a very subjective category might require more consideration when choosing datasets for model training. In the future, the model should be retrained when more suitable datasets are available to help train the model.
 
 Overall despite the flaw, the model is still able to perform its intended task with not much error. Hopefully it can be used in other systems and contribute towards those systems greatly.
+
+
+## G.PRESENTATION
+
+
+## H. ACKNOWLEDGEMENT
+* [MusicRecommendationSystem](https://github.com/raviprakash11/MusicRecommendationSystem)
+* [music_recommender](https://github.com/ugis22/music_recommender)
