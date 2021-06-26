@@ -6,7 +6,7 @@
 
 **Team Members:**
 
-![Coding](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/team%20membersV1.PNG)
+![Coding](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/team%20members.PNG)
 <p align="center">
 Figure 1 : Members Of Music Recommendation System Project
 </p>
@@ -106,7 +106,7 @@ First, song_data.csv. Song_data.csv dataset consist of 1000001 rows and 5 column
 which are song_id, title, release, artist name and year. 
 
 Second, triplets_file.csv dataset contains 1048576 rows and 3 columns
-which are user_id, song_id and listen_count. The song_data.csv dataset is holding the main data for the system and
+which are user_id, song_id and listen_count. The song_data.csv dataset is holding the user rating and
 the triplets_file.csv dataset contains the data that have been collected from the user and counting the time for each song being played
 according to the counter data that the recommender can predict from it and give the recommendation.
 
