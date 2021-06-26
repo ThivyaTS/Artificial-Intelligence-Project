@@ -64,10 +64,8 @@ The figures below shows the analysis of the dataset.
 
 ![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/histModel1.jpg)
 
-Figure 1 : Histogram of the parameter listen count and year of release of the songs.
+Figure 1 : Histogram of the parameter listen count and percentage of the listen count.
 
-
-The figure below shows the analysis of the dataset that shows the listen count and percentage of the listen count.
 
 ![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/tableModel2.jpg)
 
@@ -75,7 +73,7 @@ Table 2 : Table of datasets
 
 ![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/histModel2.jpg)
 
-Figure 1 : Histogram of the parameter listen count and year of release of the songs.
+Figure 2 : Histogram of the parameter listen count and year of release of the songs.
 
 
 ## D.   PROJECT STRUCTURE
