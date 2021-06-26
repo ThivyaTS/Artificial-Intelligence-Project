@@ -60,8 +60,6 @@ We’ll use this algorithms in Python script to train our music recommendation s
 
 **The figures below show the analysis of the dataset.**
 
-This table contains song, listen_count and percentage.
-
 ![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/images/tableModel1.jpg)
 <p align="center">
 Table 1 : Table of datasets;
