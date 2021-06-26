@@ -117,8 +117,6 @@ will identify that from the song_data.csv.
 
 - Main.py: Manipulation of the objects and controlling of the system classes.
 
-In the next sections, we will train our music recommender.
-
 
 
 ## E. RESULT
