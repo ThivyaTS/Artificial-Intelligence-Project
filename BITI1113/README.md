@@ -62,22 +62,22 @@ We’ll use this algorithms in Python script to train our music recommendation s
 
 This table contains song, listen_count and percentage.
 
-![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/tableModel1.jpg)
+![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/images/tableModel1.jpg)
 <p align="center">
 Table 1 : Table of datasets;
 </p>
 
-![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/histModel1.jpg)
+![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/images/histModel1.jpg)
 <p align="center">
 Figure 1 : Histogram of the parameter listen count and percentage of the listen count.
 </p>
 
-![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/tableModel2.jpg)
+![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/images/tableModel2.jpg)
 <p align="center">
 Table 2 : Table of datasets
 </p>
 
-![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/histModel2.jpg)
+![image](https://github.com/ThivyaTS/Artificial-Intelligence-Project/blob/main/BITI1113/images/histModel2.jpg)
 <p align="center">
 Figure 2 : Histogram of the parameter listen count and year of release of the songs.
 </p>
